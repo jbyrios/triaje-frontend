@@ -1,0 +1,16 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Evita la barra de desplazamiento fea */
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
